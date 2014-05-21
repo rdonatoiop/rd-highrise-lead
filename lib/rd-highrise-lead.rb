@@ -1,4 +1,4 @@
-require 'Highrise'
+require 'highrise'
 
 module RdHighriseLead
   

@@ -4,7 +4,7 @@ Rails gem for creating a lead (Person contact) and saving it to Highrise CRM clo
 
 == Install
 
-  gem install rdonatoiop-rd-highrise-lead --source http://gems.github.com
+  gem install rd-highrise-lead
 
 
 == Usage
@@ -18,7 +18,7 @@ RdHighriseLead::Lead.setup_account("https://your_site.highrisehq.com", auth_toke
 
 Then, create a lead and save it to your account like this:
 
-RdHighriseLead::Lead.create("John", "Doe", "john@does.com", "Johns Corp.", "CEO", "99912341234", "www.johndoe.com")
+RdHighriseLead::Lead.create("John", "Doe", "john@doe.com", "Johns Corp.", "CEO", "99912341234", "www.johndoe.com")
 
 
 == License

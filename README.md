@@ -2,7 +2,7 @@ Rails gem for creating a lead (Person contact) and saving it to Highrise CRM clo
 
 == Install
 
-  gem install rdonatoiop-rd-highrise-lead --source http://gems.github.com
+  gem install rd-highrise-lead
 
 
 == Usage

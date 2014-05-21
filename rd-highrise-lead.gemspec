@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.description = "Creates a lead and saves it to a Highrise account using Highrise API-wrapping gem."
   s.email = "rdonatoiop@gmail.com"
   s.extra_rdoc_files = ["README.md", "README.rdoc", "lib/rd-highrise-lead.rb"]
-  s.files = ["README.md", "README.rdoc", "Rakefile", "lib/rd-highrise-lead.rb", "Manifest", "rd-highrise-lead.gemspec"]
-  s.homepage = "http://github.com/ryanb/uniquify"
+  s.files = ["README.md", "README.rdoc", "Rakefile", "lib/rd-highrise-lead.rb", "rd-highrise-lead.gemspec", "Manifest"]
+  s.homepage = "https://github.com/rdonatoiop/rd-highrise-lead"
   s.rdoc_options = ["--line-numbers", "--title", "Rd-highrise-lead", "--main", "README.md"]
   s.require_paths = ["lib"]
   s.rubyforge_project = "rd-highrise-lead"
