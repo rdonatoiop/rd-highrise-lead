@@ -1,0 +1,45 @@
+= RdHighriseLead
+
+Rails gem for creating a lead (Person contact) and saving it to Highrise CRM cloud.
+
+== Install
+
+  gem install ryanb-uniquify --source http://gems.github.com
+
+
+== Usage
+
+Include this gem in your project 
+
+First, you need to register your Highrise account. Once this is done, you have a URL and an authorization token, which
+you're going to be using with this gem like this:
+
+RdHighriseLead::Lead.setup_account("https://your_site.highrisehq.com", auth_token_here)
+
+Then, create a lead and save it to your account like this:
+
+RdHighriseLead::Lead.create("John", "Doe", "john@does.com", "Johns Corp.", "CEO", "99912341234", "www.johndoe.com")
+
+
+== License
+
+Copyright (c) 2010 Ricado Iop
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
