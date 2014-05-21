@@ -35,3 +35,9 @@ module RdHighriseLead
     end
   end
 end
+
+
+
+
+#RdHighriseLead::Lead.setup_account("https://your_site.highrisehq.com", "auth_token_here")
+RdHighriseLead::Lead.create("John", "Doe", "john@does.com", "Johns Corp.", "CEO", "99912341234", "www.johndoe.com")
