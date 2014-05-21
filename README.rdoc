@@ -14,7 +14,7 @@ Include this gem in your project
 First, you need to register your Highrise account. Once this is done, you have a URL and an authorization token, which
 you're going to be using with this gem like this:
 
-RdHighriseLead::Lead.setup_account("https://your_site.highrisehq.com", auth_token_here)
+RdHighriseLead::Lead.setup_account("https://your_site.highrisehq.com", "auth_token_here")
 
 Then, create a lead and save it to your account like this:
 
