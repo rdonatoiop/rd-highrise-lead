@@ -4,7 +4,7 @@ Rails gem for creating a lead (Person contact) and saving it to Highrise CRM clo
 
 == Install
 
-  gem install ryanb-uniquify --source http://gems.github.com
+  gem install rdonatoiop-rd-highrise-lead --source http://gems.github.com
 
 
 == Usage
@@ -23,7 +23,7 @@ RdHighriseLead::Lead.create("John", "Doe", "john@does.com", "Johns Corp.", "CEO"
 
 == License
 
-Copyright (c) 2010 Ricado Iop
+Copyright (c) 2010 Ricardo Iop
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
