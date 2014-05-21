@@ -4,7 +4,7 @@ require 'echoe'
 require 'highrise'
 
 Echoe.new('rd-highrise-lead', '0.1.0') do |p|
-  p.description    = "Creates a lead and saves it to a salesforce account through Highrise."
+  p.description    = "Creates a lead and saves it to a Highrise account using Highrise API-wrapping gem."
   p.url            = "http://github.com/ryanb/uniquify"
   p.author         = "Ricardo Iop"
   p.email          = "rdonatoiop@gmail.com"
